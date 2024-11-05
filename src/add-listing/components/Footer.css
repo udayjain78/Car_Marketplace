@@ -1,0 +1,15 @@
+/* Footer.css */
+
+footer {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .footer + .infosection {
+    margin-top: -20px; /* Adjust as needed */
+  }
+  
+  .mx-auto {
+    padding-top: 10px;
+  }
+  

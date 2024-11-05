@@ -1,0 +1,57 @@
+/* src/components/Category.css */
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.m-4 {
+    margin: 1rem; /* Adjust the margin for spacing */
+}
+
+.transition-transform {
+    transition: transform 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+.hover\:scale-105:hover {
+    transform: scale(1.05); /* Slightly increase the size on hover */
+}
+
+@media (max-width: 768px) {
+    .m-4 {
+        margin: 0.5rem; /* Less margin on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    img {
+        width: 40px; /* Smaller icon size on very small screens */
+        height: 40px; /* Maintain aspect ratio */
+    }
+}
+/* Add this to your global CSS file or a specific component CSS file */
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Ensure the flex container doesn't cause overflow */
+.flex {
+    max-width: 100%; /* Ensure the container fits within the viewport */
+    overflow: hidden; /* Hide any overflow */
+}
+
+/* Example of setting padding/margin to create space */
+.hero-section {
+    padding-bottom: 20px; /* Adjust this for spacing between sections */
+}
